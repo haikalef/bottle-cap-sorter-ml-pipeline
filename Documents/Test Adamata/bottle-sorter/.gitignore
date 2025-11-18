@@ -1,0 +1,36 @@
+# .gitignore
+
+# ---------------------------------------------
+# 1. ENVIRONMENT & CACHE FILES
+# ---------------------------------------------
+# Abaikan Virtual Environment (venv) Anda
+venv/
+# Abaikan cache Python
+__pycache__/
+# Abaikan file Python yang terkompilasi
+*.pyc
+# Abaikan file DS_Store (macOS)
+.DS_Store
+
+# ---------------------------------------------
+# 2. OUTPUT DAN LOG FILES
+# ---------------------------------------------
+# Abaikan folder log training yang besar
+runs/
+# Abaikan folder output inferensi
+output/
+
+# ---------------------------------------------
+# 3. MODEL WEIGHTS (KECUALI YANG DIPILIH)
+# ---------------------------------------------
+# Abaikan semua file .pt secara default
+*.pt
+
+# Kecualikan (UNGGAH) best.pt model Baseline yang Anda pilih
+# Ubah path ini HANYA JIKA path folder output Anda berbeda.
+!ada-mata-bottle-cap-sorting/yolov8n_baseline_run/weights/best.pt
+
+# ---------------------------------------------
+# 4. DATA MENTAH
+# ---------------------------------------------
+data/raw_bottles/

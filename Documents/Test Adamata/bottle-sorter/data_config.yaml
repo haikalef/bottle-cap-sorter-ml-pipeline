@@ -1,0 +1,7 @@
+path: ./data/bottles_relabelled
+train: images/train
+val: images/val
+names:
+  0: light_blue
+  1: dark_blue
+  2: others

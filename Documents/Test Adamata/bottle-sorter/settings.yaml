@@ -1,0 +1,20 @@
+# settings.yaml
+
+paths:
+  data_raw_dir: './data/raw_bottles'
+  data_relabelled_dir: './data/bottles_relabelled'
+  data_config_file: 'data_config.yaml'
+  project_dir: './ada-mata-bottle-cap-sorting' 
+  img_size: 640
+
+training:
+  epochs: 50           # Baseline epochs
+  batch_size: 12
+  learning_rate: 0.01  # Default LR
+  weight_decay: 0.0005 # Default WD
+
+inference:
+  # MODEL DEPLOYMENT: Baseline 
+  model_path: './ada-mata-bottle-cap-sorting/yolov8n_baseline_run/weights/best.pt'
+  confidence_threshold: 0.60
+  output_dir: './output/inference_results'
