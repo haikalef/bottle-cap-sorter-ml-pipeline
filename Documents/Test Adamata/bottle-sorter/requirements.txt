@@ -1,0 +1,8 @@
+# requirements.txt
+# Dependencies utama untuk menjalankan model dan CLI
+ultralytics
+PyYAML
+opencv-python
+numpy
+pandas
+wandb
