@@ -16,9 +16,8 @@ Waktu inferensi yang diukur pada host CPU Anda adalah 73.5303 ms, yang jauh dari
 
 Model yang Digunakan: YOLOv8n (nano) Solusi Teknis Wajib:
 1. Quantization (INT8): Model terpilih harus di-quantize dari presisi FP32 menjadi INT8. Ini adalah teknik paling efektif untuk meningkatkan kecepatan inference pada chip Raspberry Pi 5 yang dioptimalkan untuk komputasi integer.
- 
-2.Runtime Akselerasi: Model harus diekspor ke format ONNX atau TFLite dan dijalankan menggunakan runtime akselerasi (seperti ONNX Runtime atau OpenVINO) di RPi 5.
-
+2. Runtime Akselerasi: Model harus diekspor ke format ONNX atau TFLite dan dijalankan menggunakan runtime akselerasi (seperti ONNX Runtime atau OpenVINO) di RPi 5.
+   
 Kombinasi kedua langkah ini akan memberikan peningkatan kecepatan total 6x hingga 10x, membawa performa model ke dalam ambang batas kendala 5-10 ms.
 
 Deployment Infrastructure:
