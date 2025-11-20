@@ -30,3 +30,6 @@ B. CI/CD Pipeline (GitHub Actions)
 Workflow CI/CD diimplementasikan untuk memastikan kualitas kode dan deployment yang andal:
 - Code Quality: Menjalankan linting (Pylint) dan formatting (Black, isort) pada setiap push.
 - Build Verification: Memastikan image Docker dapat dibangun dengan sukses di server GitHub Actions.
+
+WandB Model Tracking URL:
+Saya mengalami masalah dengan visibilitas server WandB yang menyebabkan kesalahan 404 di halaman profil pribadi saya. Namun, semua data pelatihan berhasil dicatat dan seharusnya dapat diakses melalui tautan proyek yang disediakan. Analisis lengkapnya disajikan dalam Jupyter Notebook yang telah dikirimkan.
